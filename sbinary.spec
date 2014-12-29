@@ -1,3 +1,4 @@
+%{?_javapackages_macros:%_javapackages_macros}
 %global sbinary_version 0.4.2
 %global scala_version 2.10
 %global scala_long_version 2.10.3
@@ -6,9 +7,9 @@
 
 Name:           sbinary
 Version:        %{sbinary_version}
-Release:        3%{?dist}
+Release:        3.1
 Summary:        Library for describing binary formats for Scala types
-
+Group:		Development/Java
 License:        MIT
 URL:            https://github.com/harrah/sbinary
 Source0:        https://github.com/harrah/sbinary/archive/v%{sbinary_version}.tar.gz
