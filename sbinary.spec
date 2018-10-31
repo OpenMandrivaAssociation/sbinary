@@ -7,7 +7,7 @@
 
 Name:           sbinary
 Version:        %{sbinary_version}
-Release:        3.2
+Release:        3.3
 Summary:        Library for describing binary formats for Scala types
 Group:		Development/Java
 License:        MIT
